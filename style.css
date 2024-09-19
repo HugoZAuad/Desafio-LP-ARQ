@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+}
+
+#MenuSuperior{
+    font-family: "inter";
+    background-color:#303030;
+    color: white;
+    padding: 150px 0px 100px 50px;
+}
+
+#TituloSuperior{
+    font-size: 60px;
+}
+
+#TextoSuperior{
+    font-size: 20px;
+}
+
+#MenuInformacional{
+    background-color: #F9F9F9;
+    font-family: "inter";
+    padding: 50px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.Informacao{
+    font-size: 40px;
+}
+
+span{
+    font-size: 20px;
+}
+
+#Historia{
+    font-family: "inter";
+}
+
+#TituloHistoria{
+    font-size: 40px;
+    margin: 250px 0px 15px 50px;
+}
+
+#TextoHistoria{
+    font-size: 24px;
+    margin: 50px 80px 300px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#img1{
+    position: absolute;
+    left: 1200px;
+    bottom: -300px;
+    cursor: pointer;
+    width: 510px;
+    height: 605px;
+    border-radius: 35px;
+}
+
+#img2{
+    display: none;
+    position: absolute;
+    left: 1200px;
+    bottom: -300px;
+    cursor: pointer;
+    width: 510px;
+    height: 605px;
+    border-radius: 35px;
+}
+
+#img3{
+    display: none;
+    position: absolute;
+    left: 1200px;
+    bottom: -300px;
+    cursor: pointer;
+    width: 510px;
+    height: 605px;
+    border-radius: 35px;
+}
+
+#img4{
+    display: none;
+    position: absolute;
+    left: 1200px;
+    bottom: -300px;
+    cursor: pointer;
+    width: 510px;
+    height: 605px;
+    border-radius: 35px;
+}
+
+#img5{
+    display: none;
+    position: absolute;
+    left: 1200px;
+    bottom: -300px;
+    cursor: pointer;
+    width: 510px;
+    height: 605px;
+    border-radius: 35px;
+}
+
+#img6{
+    display: none;
+    position: absolute;
+    left: 1200px;
+    bottom: -300px;
+    cursor: pointer;
+    width: 510px;
+    height: 605px;
+    border-radius: 35px;
+}
+
+#img1:hover{
+    transform: translateY(-7px);
+    transition: 0.5s;
+    box-shadow: 0px 30px 20px 0px #303030;
+}
+
+#img2:hover{
+    transform: translateY(-7px);
+    transition: 0.5s;
+    box-shadow: 0px 30px 20px 0px #303030;
+}
+
+#img3:hover{
+    transform: translateY(-7px);
+    transition: 0.5s;
+    box-shadow: 0px 30px 20px 0px #303030;
+}
+
+#img4:hover{
+    transform: translateY(-7px);
+    transition: 0.5s;
+    box-shadow: 0px 30px 20px 0px #303030;
+}
+
+#img5:hover{
+    transform: translateY(-7px);
+    transition: 0.5s;
+    box-shadow: 0px 30px 20px 0px #303030;
+}
+
+#img6:hover{
+    transform: translateY(-7px);
+    transition: 0.5s;
+    box-shadow: 0px 30px 20px 0px #303030;
+}
+
+#Formulario{
+    background-color: #303030;
+    color: white;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    font-family: "inter";
+}
+
+#TituloForms{
+    padding: 50px;
+}
+
+input{
+    font-family: "inter";
+    font-weight: bolder;
+    font-size: 24px;
+    display: flex;
+    border: 0;
+    border-radius: 10px;
+    width: 450px;
+    height: 72px;
+    padding-left: 30px;
+    margin: 15px 0 55px 680px;
+
+}
+
+button{
+    font-family: "raleway";
+    font-size: 30px;
+    font-weight: bolder;
+    width: 286px;
+    height: 74px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: #C07212;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: translateY(-7px);
+    transition: 0.5s;
+    box-shadow: 0px 5px 15px 0px #C07212;
+    background-color: #492a05;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #303030;
+}
+::-webkit-scrollbar {
+    width: 7px;
+    background: #303030;
+}
+::-webkit-scrollbar-thumb {
+    background: #7c7c7c;
+}
